@@ -1,0 +1,34 @@
+{
+  "name": "greenfeed-app",
+  "version": "1.0.0",
+  "description": "A Selection of Green News Outlets with a comments section. Built with Node/Express/MongoDB/Cheerio/Mongoose.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jholowicki/GreenFeed-App.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "MongoDB",
+    "Cheerio",
+    "Mongoose"
+  ],
+  "author": "Joy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jholowicki/GreenFeed-App/issues"
+  },
+  "homepage": "https://github.com/jholowicki/GreenFeed-App#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.8.4",
+    "request": "^2.79.0"
+  }
+}
